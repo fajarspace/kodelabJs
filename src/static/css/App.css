@@ -1,0 +1,10 @@
+.header{
+  color: red;
+}
+
+.body{
+  margin: 5% auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
