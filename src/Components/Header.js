@@ -5,7 +5,7 @@ import { faBook } from '@fortawesome/free-solid-svg-icons'
 import { faFlask } from '@fortawesome/free-solid-svg-icons'
 function Header() {
     return(
-        <div className="container">
+        <header className='container' >
         <nav>
           <ul>
             <li className="title"><Link to="/">KodeLab <FontAwesomeIcon icon={faFlask} /> </Link></li>
@@ -14,7 +14,7 @@ function Header() {
             </li>
           </ul>
         </nav>
-        </div>
+        </header>
     )
 }
 export default Header;
