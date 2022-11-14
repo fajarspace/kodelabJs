@@ -1,10 +1,14 @@
 
 function Footer() {
     return(
-        <div className="footer" >
-            <h1>Footer</h1>
-        
-        </div>
+        <footer>
+            <div class="container">
+                <p>
+                To replace this page, create a
+                <code>./public/index.html</code> file.
+                </p>
+            </div>
+        </footer>
     )
 }
 export default Footer;
