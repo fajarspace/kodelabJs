@@ -1,17 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './static/css/App.css';
-import Header from "./Components/Header.js";
-import Body from "./Components/Body.js";
-import Footer from "./Components/Footer.js";
+import Home from "./Components/Home.js";
+import Docs from "./Components/Dokumentasi.js";
+import Layout from './Components/Layout';
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <Header />
-      <Body />
-      <Footer />
-    </div> 
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+          <Route path="docs" element={<Docs />} />
+          
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
