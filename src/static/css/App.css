@@ -10,6 +10,8 @@ body {
   letter-spacing: 0;
 }
 
+.box{}
+
 .container {
   max-width: 960px;
   margin: auto;
