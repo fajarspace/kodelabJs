@@ -7,7 +7,7 @@ const Header = () => {
     <nav className="navbar container" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
         <NavLink to="/" className="navbar-item">
-          <h1 className='title' >KodeLab</h1>
+          <h1 className='title'>KodeLab 🧪</h1>
         </NavLink>
 
       <a href="!#" role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -51,7 +51,7 @@ const Header = () => {
         <div className="navbar-item">
           <div className="buttons">
             <NavLink className={"button is-light"} to={"/dashboard"} >
-              <IoPerson /> Login
+              <IoPerson /> Login Instruktur
             </NavLink>
           </div>
         </div>
