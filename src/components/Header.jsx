@@ -1,4 +1,5 @@
 import React from 'react'
+import { IoPerson } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
             <li className="title">Kodelab</li>
             <li>
             <NavLink to={"/dashboard"} >
-              Login
+              <IoPerson /> Login
             </NavLink>
             </li>
           </ul>
