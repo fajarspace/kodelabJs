@@ -1,10 +1,14 @@
 import React from 'react'
-import Layout from "./Layout";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <h1>asdas</h1>
+    <>
+      <Header />
+      <Footer />
+    </>
   )
 }
 
-export default Home
+export default Home;
