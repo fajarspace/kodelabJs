@@ -9,4 +9,4 @@ const Halo = () => {
   )
 }
 
-export default Halo
+export default Halo;

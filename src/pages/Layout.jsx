@@ -1,8 +1,8 @@
-import React, { Children } from 'react'
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
+import React from 'react'
+import Navbar from "../components/Navbar.jsx";
+import Sidebar from "../components/Sidebar.jsx";
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <Navbar />
@@ -11,11 +11,11 @@ const Layout = () => {
           <Sidebar />
         </div>
         <div className="column has-background-light">
-          <main>{Children}</main>
+          <main>{children}</main>
         </div>
       </div>
     </React.Fragment>    
   )
 }
 
-export default Layout
+export default Layout;

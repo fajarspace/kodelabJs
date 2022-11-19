@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navlink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -10,10 +10,10 @@ const Sidebar = () => {
         </p>
         <ul className="menu-list">
           <li>
-            <Navlink to={"/dashboard"}>Dashboard</Navlink>
+            <NavLink to={"/dashboard"}>Dashboard</NavLink>
           </li>
           <li>
-            <Navlink to={"/jadwals"}>jadwal</Navlink>
+            <NavLink to={"/jadwals"}>jadwal</NavLink>
           </li>
         </ul>
         <p className="menu-label">
@@ -21,7 +21,7 @@ const Sidebar = () => {
         </p>
         <ul className="menu-list">
           <li>
-            <Navlink to={"/users"}>users</Navlink>
+            <NavLink to={"/users"}>users</NavLink>
           </li>
         </ul>
         <p className="menu-label">
@@ -37,4 +37,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Sidebar;
