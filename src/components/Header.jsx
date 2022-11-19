@@ -21,7 +21,7 @@ const Header = () => {
       <div className="navbar-start">
 
         <a href='!#' className="navbar-item">
-          Documentation
+          Praktikum
         </a>
 
         <div className="navbar-item has-dropdown is-hoverable">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import Quotes from "./Quotes";
 
 const ListCard = () => {
   return (
@@ -36,18 +37,10 @@ const ListCard = () => {
               <p className="title is-5">Modul</p>
             </NavLink>
           </div>
-          <div className="box">
-            <NavLink to={""}>
-              <p className="title is-5">Jadwal</p>
-            </NavLink>
-          </div>
         </div>
-        <div className="column">
-          <div className="box">
-            <p className="title is-5">Flexible column</p>
-            <p className="subtitle">This column will take up the remaining space available.</p>
-          </div>
-        </div>
+        
+        <Quotes />
+
         </div>
       </div>
   )
