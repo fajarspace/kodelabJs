@@ -37,6 +37,16 @@ const ListCard = () => {
               <p className="title is-5">Modul</p>
             </NavLink>
           </div>
+          <div className="box">
+            <NavLink to={""}>
+              <p className="title is-5">Sesi praktikum</p>
+            </NavLink>
+          </div>
+          <div className="box">
+            <NavLink to={""}>
+              <p className="title is-5">Tempelate laporan</p>
+            </NavLink>
+          </div>
         </div>
         
         <Quotes />
