@@ -1,13 +1,14 @@
 import React from 'react'
 import { IoPerson } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
+import { IoPlanetOutline, IoFlaskSharp, IoChevronBack, IoChevronForward } from "react-icons/io5";
 
 const Header = () => {
   return (
     <nav className="navbar container" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
         <NavLink to="/" className="navbar-item">
-          <h1 className='title'>KodeLab 🧪</h1>
+          <h1 className='title'>KodeLab <IoChevronBack/><IoFlaskSharp /><IoChevronForward/> </h1>
         </NavLink>
 
       <a href="!#" role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
