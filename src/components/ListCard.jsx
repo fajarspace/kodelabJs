@@ -11,47 +11,47 @@ const ListCard = () => {
         <p className='subtitle'>Praktikum : Bahasa Pemrograman</p>
           <div className="box has-background-link">
             <NavLink to={""}>
-              <p className="title is-5 box-sidebar"><IoPeople /> Tata tertib praktikan</p>
+              <p className="title is-5 has-text-light"><IoPeople /> Tata tertib praktikan</p>
             </NavLink>
           </div>
           <div className="box has-background-link">
             <NavLink to={""}>
-              <p className="title is-5"><IoDocument /> PPT technical meeting</p>
+              <p className="title is-5 has-text-light"><IoDocument /> PPT technical meeting</p>
             </NavLink>
           </div>
           <div className="box has-background-danger">
             <NavLink to={""}>
-              <p className="title is-5"><IoPlay /> Rekaman technical meeting</p>
+              <p className="title is-5 has-text-light"><IoPlay /> Rekaman technical meeting</p>
             </NavLink>
           </div>
           <div className="box has-background-link">
             <NavLink to={""}>
-              <p className="title is-5"><IoWatch />Jadwal praktikum</p>
+              <p className="title is-5 has-text-light"><IoWatch />Jadwal praktikum</p>
             </NavLink>
           </div>
           <div className="box has-background-link">
             <NavLink to={""}>
-              <p className="title is-5"><IoBook /> Modul</p>
+              <p className="title is-5 has-text-light"><IoBook /> Modul</p>
             </NavLink>
           </div>
           <div className="box has-background-link">
             <NavLink to={""}>
-              <p className="title is-5"><IoList /> Sesi praktikum</p>
+              <p className="title is-5 has-text-light"><IoList /> Sesi praktikum</p>
             </NavLink>
           </div>
           <div className="box has-background-link">
             <NavLink to={""}>
-              <p className="title is-5"><IoCheckmarkCircle /> Absensi praktikum</p>
+              <p className="title is-5 has-text-light"><IoCheckmarkCircle /> Absensi praktikum</p>
             </NavLink>
           </div>
           <div className="box has-background-warning-dark">
             <NavLink to={""}>
-              <p className="title is-5"><IoCopy /> Tempelate laporan</p>
+              <p className="title is-5 has-text-light"><IoCopy /> Tempelate laporan</p>
             </NavLink>
           </div>
           <div className="box has-background-grey">
             <NavLink to={""}>
-              <p className="title is-5"><IoPeople /> Kontak Aslab</p>
+              <p className="title is-5 has-text-light"><IoPeople /> Kontak Aslab</p>
             </NavLink>
           </div>
         </div>
