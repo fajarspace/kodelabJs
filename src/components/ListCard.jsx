@@ -8,6 +8,7 @@ const ListCard = () => {
     <div className="container">
       <div className="columns">
         <div className="column is-narrow">
+        <p className='subtitle'>Praktikum : Bahasa Pemrograman</p>
           <div className="box has-background-link">
             <NavLink to={""}>
               <p className="title is-5 box-sidebar"><IoPeople /> Tata tertib praktikan</p>
