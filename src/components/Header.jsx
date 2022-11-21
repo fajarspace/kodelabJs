@@ -32,18 +32,12 @@ const Header = () => {
 
           <div className="navbar-dropdown">
             <a href='!#' className="navbar-item">
-              About
+              Tech stack
             </a>
-            <a href='!#' className="navbar-item">
-              Jobs
-            </a>
-            <a href='!#' className="navbar-item">
-              Contact
-            </a>
-            <hr className="navbar-divider" />
+            {/* <hr className="navbar-divider" />
             <a href='!#' className="navbar-item">
               Report an issue
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -51,8 +45,8 @@ const Header = () => {
       <div className="navbar-end">
         <div className="navbar-item">
           <div className="buttons">
-            <NavLink className={"button is-light"} to={"/dashboard"} >
-              <IoPerson /> Login Instruktur
+            <NavLink className={""} to={"/dashboard"} >
+              <button className="button is-link"><IoPerson /> Login Instruktur</button>
             </NavLink>
           </div>
         </div>

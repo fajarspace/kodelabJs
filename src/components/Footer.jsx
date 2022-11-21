@@ -1,5 +1,5 @@
 import React from 'react';
-import { IoHeart } from "react-icons/io5";
+import { IoHeart, IoLogoReact } from "react-icons/io5";
 import { IoPerson } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 
@@ -13,7 +13,7 @@ const Footer = () => {
             {/* <NavLink>
               <p><IoPerson />Kontak Aslab</p><br />
             </NavLink> */}
-          <h2 className='subtitle' >Built with <IoHeart /> React.Js</h2>
+          <h2 className='subtitle' >Built with <IoLogoReact /> React.Js</h2>
         </div>
         <div className="column"></div>
       </div>
